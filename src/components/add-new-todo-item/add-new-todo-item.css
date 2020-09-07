@@ -1,0 +1,16 @@
+.todo-new {
+	padding: 10px;
+}
+
+.todo-new .textbox {
+	height: 30px;
+	border: 1px solid rgb(175, 172, 172);
+	min-width: 500px;
+}
+
+.todo-new button {
+	height: 35px;
+	padding: 5px;
+	margin: 5px;
+	min-width: 70px;
+}

@@ -1,0 +1,36 @@
+.todo-item {
+	display: flex;
+	width: 600px;
+}
+
+.todo-item .todo-display {
+	display: flex;
+}
+
+.todo-item .todo-display .item-label {
+	width: 590px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 1px 5px;
+	overflow-wrap: break-word;
+}
+
+.todo-item .todo-edit {
+	display: flex;
+}
+
+.todo-item .todo-edit input {
+	width: 515px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 1px 5px;
+	overflow-wrap: break-word;
+}
+
+.todo-item button {
+	height: 35px;
+	padding: 5px;
+	margin: 1px 5px;
+	min-width: 70px;
+	margin-left: auto;
+}
